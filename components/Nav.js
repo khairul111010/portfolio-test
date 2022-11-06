@@ -14,7 +14,7 @@ export default function Nav() {
           <Link href="/about">About</Link>
         </div>
         <div className={styles.nav_links}>
-          <Link href="/about">Skills</Link>
+          <Link href="/education">Education</Link>
         </div>
         <div className={styles.nav_links}>
           <Link href="/about">Projects</Link>
