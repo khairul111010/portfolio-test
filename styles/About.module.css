@@ -1,0 +1,72 @@
+.about_layout {
+  width: 70vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+.about_title::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #dee2e6;
+  margin: 4px 10px;
+}
+
+.about_img {
+  margin-top: 10px;
+}
+
+.about_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_img_details_text {
+  margin-left: 200px;
+}
+
+.about_img_details_col {
+  margin-top: 50px;
+}
+
+.about_img_details_col > tbody > tr {
+  margin-top: 50px;
+}
+
+.about_img_details_col > tbody > tr > td {
+  padding-right: 110px;
+}
+
+.interest {
+  margin-top: 100px;
+}
+.cards {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* justify-items: start; */
+  /* align-content: end; */
+  justify-content: start;
+}
+.card {
+  padding: 0.2rem 0.5rem;
+  width: 250px;
+  height: 70px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: small;
+}
+.card > svg {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
