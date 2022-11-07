@@ -1,3 +1,68 @@
 .education_wrapper {
+  width: 70vw;
   height: 90vh;
+  margin: 0 auto;
+}
+
+.education_header::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #dee2e6;
+  margin: 4px 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.card {
+  background-color: #061424;
+  transition: all 0.3s ease-in;
+}
+.card:hover {
+  background-color: #042e5f;
+}
+
+.card > img {
+  width: 300px;
+  height: 200px;
+}
+
+.card_text {
+  font-size: smaller;
+  padding: 0.5rem;
+}
+.certificate_start {
+  margin-top: 3rem;
+}
+
+.certificate_header::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #dee2e6;
+  margin: 4px 10px;
+}
+
+.cert_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.1rem;
+}
+
+.cert_img > img {
+  height: 200px;
+  width: 400px;
+  object-fit: contain;
+  transition: all 0.3s ease-in;
+}
+
+.cert_img > img:hover {
+  filter: opacity(50%);
 }
