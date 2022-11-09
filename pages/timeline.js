@@ -12,7 +12,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 export default function timeline() {
   return (
-    <>
+    <div className={styles.timeline_wrapper}>
       <div className={styles.text}>
         <h2>Timeline</h2>
       </div>
@@ -74,6 +74,6 @@ export default function timeline() {
           <p>Strategy, Social Media</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </>
+    </div>
   );
 }

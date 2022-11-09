@@ -1,8 +1,14 @@
 .nav {
+  position: fixed;
+  width: 100vw;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 10vh;
+  top: 0;
+  background-color: #061728;
+  z-index: 1;
 }
 .link_wrappers {
   display: flex;

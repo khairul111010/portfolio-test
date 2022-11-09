@@ -1,7 +1,7 @@
 .education_wrapper {
   width: 70vw;
   height: 90vh;
-  margin: 0 auto;
+  margin-top: 10vh;
 }
 
 .education_header::after {
@@ -23,6 +23,7 @@
 .card {
   background-color: #061424;
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 .card:hover {
   background-color: #042e5f;
@@ -61,6 +62,7 @@
   width: 400px;
   object-fit: contain;
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 
 .cert_img > img:hover {

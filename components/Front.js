@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/Front.module.css";
 import tr from "../public/assets/img/tr.png";
+import Link from "next/link";
 export default function Front() {
   return (
     <div className={styles.front}>
@@ -16,7 +17,6 @@ export default function Front() {
           <h3>Software Engineer @ Google - Grad Student - AI/ML Researcher</h3>
         </div>
       </div>
-      <div className={styles.profile_enter}>Enter</div>
     </div>
   );
 }

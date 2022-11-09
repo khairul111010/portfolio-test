@@ -1,10 +1,18 @@
 .about_layout {
   width: 70vw;
   height: 90vh;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 10vh;
+}
+.about_title {
+  /* margin-top: 20vh; */
+  padding-top: 3vh;
+}
+.about_title_interest {
+  margin-left: 40px;
 }
 
-.about_title::after {
+.about_title_interest::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -13,18 +21,40 @@
   margin: 4px 10px;
 }
 
-.about_img {
-  margin-top: 10px;
+.about_img > img {
+  margin-top: 70px;
+  border-radius: 50%;
+  border: 0.3em solid white;
+  scale: 1.2;
 }
 
 .about_details {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 40px;
 }
-
+.about_img_details {
+  margin-bottom: 30px;
+}
 .about_img_details_text {
   margin-left: 200px;
+  line-height: 25px;
+}
+
+.about_name {
+  margin-left: 200px;
+  /* margin-bottom: 50px; */
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.about_title {
+  margin-left: 200px;
+  font-style: italic;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .about_img_details_col {
@@ -43,7 +73,7 @@
   margin-top: 100px;
 }
 .cards {
-  margin-top: 10px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -63,10 +93,49 @@
   font-weight: bold;
   cursor: pointer;
   font-size: small;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.card:hover {
+  scale: 0.9;
 }
 .card > svg {
   margin-top: 0;
   margin-left: 0;
   margin-right: 5px;
   margin-bottom: 0;
+}
+
+.social_links {
+  /* padding: 20px; */
+  /* width: 300px; */
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social_links > a {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #081f38;
+  transition: 0.3s ease;
+}
+
+.social_links > a:hover {
+  scale: 0.95;
+}
+
+.social_links > a:nth-child(1):hover {
+  color: #0a66c2;
+}
+.social_links > a:nth-child(2):hover {
+  color: #000000;
+}
+.social_links > a:nth-child(3):hover {
+  color: #f48225;
+}
+.social_links > a:nth-child(4):hover {
+  color: #e31e24;
 }

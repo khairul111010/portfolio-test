@@ -17,22 +17,22 @@ export default function Nav() {
           <Link href="/education">Education</Link>
         </div>
         <div className={styles.nav_links}>
+          <Link href="/about">Skills</Link>
+        </div>
+        <div className={styles.nav_links}>
           <Link href="/about">Projects</Link>
         </div>
         <div className={styles.nav_links}>
-          <Link href="/about">Papers</Link>
-        </div>
-        <div className={styles.nav_links}>
           <Link href="/timeline">Timeline</Link>
-        </div>
-        <div className={styles.nav_links}>
-          <Link href="/about">Contact</Link>
         </div>
         <div className={styles.nav_links}>
           <Link href="/about">Resume</Link>
         </div>
         <div className={styles.nav_links}>
           <Link href="/about">Thesis</Link>
+        </div>
+        <div className={styles.nav_links}>
+          <Link href="/about">Contact</Link>
         </div>
       </div>
     </div>

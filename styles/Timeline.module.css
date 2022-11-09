@@ -4,3 +4,7 @@
 .text > h2 {
   text-align: center;
 }
+
+.timeline_wrapper {
+  margin-top: 10vh;
+}
